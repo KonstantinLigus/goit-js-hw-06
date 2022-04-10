@@ -24,12 +24,15 @@ button {
 }
 
 .gallery {
+  /* width: 500px; */
   display: flex;
+  margin: -10px;
   list-style: none;
 }
 
-.galery li {
-  flex-basis: calc(100% / 2);
+.gallery li {
+  margin: 10px;
+  flex-basis: calc((100%-10px) / 3);
 }
 
 .gallery img {
