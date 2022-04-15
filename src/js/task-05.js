@@ -1,9 +1,9 @@
 const textInput = document.querySelector("#name-input");
 const textOutput = document.querySelector("#name-output");
 
-textInput.addEventListener("input", onTextInputInput);
+textInput.addEventListener("input", onTextInputChange);
 
-function onTextInputInput(event) {
+function onTextInputChange(event) {
   textOutput.textContent = event.currentTarget.value;
   // textOutput.textContent = textInput.value; //так тоже работает, так хуже?
 
